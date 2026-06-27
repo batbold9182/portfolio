@@ -1,36 +1,3 @@
-// ── TERMINAL ANIMATION ──
-(function () {
-  const body = document.getElementById('terminal-body');
-  if (!body) return;
-
-  const lines = [
-    '<span class="term-cmd">$ node server.js</span>',
-    '',
-    '<span class="term-title">  ◆ Batbold Samdan  v1.0</span>',
-    '',
-    '<span class="term-label">[env]     </span>loading config          <span class="term-ok">done</span>',
-    '<span class="term-label">[mongodb] </span>connecting to cluster   <span class="term-ok">✓</span>',
-    '<span class="term-label">[auth]    </span>JWT + refresh tokens    <span class="term-ok">ready</span>',
-    '<span class="term-label">[socket]  </span>/chat namespace         <span class="term-ok">up</span>',
-    '<span class="term-label">[socket]  </span>/notifications          <span class="term-ok">up</span>',
-    '<span class="term-label">[server]  </span>listening on :5000      <span class="term-ok">✓</span>',
-  ];
-
-  const delays = [1200, 1400, 1500, 1600, 1850, 2150, 2450, 2750, 3050, 3350];
-
-  lines.forEach((html, i) => {
-    setTimeout(() => {
-      const div = document.createElement('div');
-      div.className = 'term-line';
-      div.innerHTML = html;
-      if (i === lines.length - 1) {
-        div.innerHTML += '<span class="term-cursor"></span>';
-      }
-      body.appendChild(div);
-    }, delays[i]);
-  });
-}());
-
 const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 40);

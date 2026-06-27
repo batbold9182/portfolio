@@ -34,7 +34,7 @@
     <div class="hero-actions">
       <a href="#projects" class="btn-primary">View Projects</a>
       <a href="mailto:batbold918273645@gmail.com" class="btn-ghost">Get in touch</a>
-      <a href="Batbold_Samdan_CV 3.pdf" download class="btn-ghost">Download CV ↓</a>
+      <a href="Batbold_Samdan_CV%203.pdf" download class="btn-ghost">Download CV ↓</a>
       <button onclick="window.print()" class="btn-ghost">⎙ Print</button>
     </div>
     <div class="hero-meta">
@@ -54,15 +54,14 @@
   </div>
 
   <div class="hero-right">
-    <div class="hero-terminal">
-      <div class="terminal-bar">
-        <div class="terminal-dots">
-          <span></span><span></span><span></span>
-        </div>
-        <span class="terminal-filename">server.js</span>
+    <blockquote class="hero-quote">
+      <div class="hologram-wrap">
+        <img src="profile.png" alt="Batbold" class="hologram-img" />
+        <div class="hologram-ring"></div>
       </div>
-      <div class="terminal-body" id="terminal-body"></div>
-    </div>
+      <p>"To know, is to know that you know nothing. That is the true meaning of knowledge"</p>
+      <cite>— Socrates</cite>
+    </blockquote>
   </div>
 
   <div class="scroll-hint">
@@ -96,21 +95,19 @@
         <span class="tag">React</span>
         <span class="tag">Next.js</span>
         <span class="tag">TypeScript</span>
-        <span class="tag">Zustand</span>
         <span class="tag">Vanilla JS</span>
         <span class="tag">HTML5</span>
         <span class="tag">CSS3</span>
       </div>
     </div>
     <div class="skill-group reveal reveal-d3">
-      <div class="skill-group-label">Database & Tools</div>
+      <div class="skill-group-label">Database &amp; Tools</div>
       <div class="tags">
         <span class="tag">MongoDB</span>
         <span class="tag">Mongoose</span>
         <span class="tag">Git</span>
         <span class="tag">GitHub</span>
-        <span class="tag">Cloudinary</span>
-        <span class="tag">Vite</span>
+        <span class="tag">Vite</span> 
       </div>
     </div>
     <div class="skill-group reveal reveal-d4">
@@ -138,7 +135,7 @@
     <!-- Project 1 -->
     <div class="project-card reveal">
       <div>
-        <div class="project-year">2024 – 2025</div>
+        <div class="project-year">2024 – ongoing</div>
         <div class="project-name">Smart Campus System</div>
         <p class="project-desc">Full-stack campus management platform. Real-time chat, secure authentication, and file management — built to handle production-grade complexity.</p>
         <ul class="project-bullets">
@@ -214,6 +211,32 @@
         <a href="https://todo-batbold.vercel.app/" target="_blank" class="project-link">Live ↗</a>
       </div>
     </div>
+    <div class="project-card reveal reveal-d3">
+      <div>
+        <div class="project-year">2025</div>
+        <div class="project-name">Beauty salon finder</div>
+        <p class="project-desc">A web application for finding beauty salons based on location and services offered.</p>
+        <ul class="project-bullets">
+          <li>Populated database with 250+ real Warsaw salons using a Node.js script and Google Places API v1 — bypassed 60-result limit with 5 targeted search queries and deduplicated with a Set</li>
+          <li>Reduced Google Places API cost using <strong>X-Goog-FieldMask</strong> header — requests only required fields instead of full response payload</li>
+          <li>Prevents <strong>ReDoS</strong> attacks via <strong>escapeRegex()</strong> — converts user input to regex literals before MongoDB query, discovered when accidental '.' returned entire database</li>
+          <li>Debounced API requests to improve performance and reduce unnecessary calls</li>
+        </ul>
+        <div class="project-tags">
+          <span class="project-tag">Express.js</span>
+          <span class="project-tag">React</span>
+          <span class="project-tag">TypeScript</span>
+          <span class="project-tag">MongoDB</span>
+          <span class="project-tag">Vercel</span>
+          <span class="project-tag">Render</span>
+        </div>
+      </div>
+      <div class="project-side">
+        <div class="project-number">04</div>
+        <a href="https://sumup-gray.vercel.app/" target="_blank" class="project-link">Live ↗</a>
+      </div>
+
+    </div>
 
   </div>
 </section>
@@ -267,7 +290,7 @@
   <h2 class="contact-title reveal reveal-d1">Let's build<br /><em>something great</em></h2>
   <p class="contact-sub reveal reveal-d2">Open to internships, junior roles, and freelance projects. Don't hesitate to reach out.</p>
   <div class="contact-links reveal reveal-d3">
-    <a href="/cdn-cgi/l/email-protection#22404356404d4e461b131a10151114161762454f434b4e0c414d4f" class="contact-link primary">✉ Send an email</a>
+    <a href="mailto:batbold918273645@gmail.com" class="contact-link primary">✉ Send an email</a>
     <a href="https://github.com/batbold9182" target="_blank" class="contact-link">⌥ GitHub</a>
     <a href="tel:+48452911269" class="contact-link">✆ +48 452 911 269</a>
   </div>
