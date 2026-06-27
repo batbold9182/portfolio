@@ -432,7 +432,10 @@
     nav { padding: 1rem 1.5rem; }
     .nav-links { display: none; }
     .hero { grid-template-columns: 1fr; padding: 6rem 1.5rem 3rem; }
-    .hero-right { display: none; }
+    .hero-right { display: flex; justify-content: center; margin-top: 2rem; }
+    .hero-quote { font-size: 0.9rem; padding: 1.5rem; }
+    .hologram-wrap { width: 120px; height: 120px; }
+    .hologram-img { width: 100px; height: 100px; }
     section { padding: 4rem 1.5rem; }
     .hero-meta { gap: 1.5rem; }
     .project-card { grid-template-columns: 1fr; }
