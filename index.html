@@ -47,7 +47,7 @@
       </div>
       <div class="hero-meta-item">
         <span class="hero-meta-label">GitHub</span>
-        <span class="hero-meta-value"><a href="https://github.com/batbold9182" target="_blank">github.com/batbold9182</a></span>
+        <span class="hero-meta-value"><a href="https://github.com/batbold9182" target="_blank"><svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true" style="vertical-align:-2px;margin-right:5px;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>github.com/batbold9182</a></span>
       </div>
       <div class="hero-meta-item">
         <span class="hero-meta-label">Phone</span>
@@ -186,32 +186,41 @@
       <div class="project-side">
         <div class="project-number">02</div>
         <a href="https://simplebookcatalogue.vercel.app/" target="_blank" class="project-link">Live ↗</a>
+        <a href="https://github.com/batbold9182/task" target="_blank" class="project-link" aria-label="View source on GitHub">
+          <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true" style="vertical-align:-2px;margin-right:5px;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Repository</a>
       </div>
     </div>
 
     <!-- Project 3 -->
     <div class="project-card reveal reveal-d2">
       <div>
-        <div class="project-year">2025</div>
-        <div class="project-name">Todo App — Next.js + TypeScript + MongoDB</div>
-        <p class="project-desc">Fullstack todo application deployed to production. End-to-end typed with a real auth system, deployed across two cloud providers.</p>
+          <div class="project-year">2025 - ongoing</div>
+        <div class="project-name">Express — Music Review Social App</div>
+        <p class="project-desc">A fullstack music-review social platform (web + mobile) built on Spotify's catalog, with TypeScript end-to-end.</p>
         <ul class="project-bullets">
-          <li><strong>JWT authentication</strong> with bcrypt password hashing for secure registration &amp; login</li>
-          <li>REST API with <strong>Node.js + Express + TypeScript</strong> — full CRUD for todo management</li>
-          <li><strong>MongoDB</strong> for persistent storage — backend on Render, frontend on Vercel</li>
+          <li><strong>TypeScript monorepo</strong> (npm workspaces) sharing types &amp; theming across an Express 5 + MongoDB backend, a React + Vite web app, and a React Native (Expo) mobile app</li>
+          <li><strong>Spotify OAuth 2.0</strong> end-to-end for web (redirect callback) &amp; native (deep-linking, base64 state) — with token refresh, concurrent-request deduplication, and proactive pre-expiry renewal</li>
+          <li>Full review system over tracks/albums/artists — server-side filtered search, likes, comments, follows, and aggregated notifications</li>
+          <li>Paginated feeds with <strong>cursor-based infinite scroll</strong>, computing aggregate stats (avg score, distribution) from full result sets rather than the loaded page</li>
+          <li>Currently working with real users and reviews to prevent cold boot of Render using bot to call endpoints every 10 minutes</li>
         </ul>
         <div class="project-tags">
-          <span class="project-tag">Next.js</span>
+          <span class="project-tag">React</span>
           <span class="project-tag">TypeScript</span>
           <span class="project-tag">Express.js</span>
           <span class="project-tag">MongoDB</span>
-          <span class="project-tag">JWT</span>
+          <span class="project-tag">React Native</span>
+          <span class="project-tag">Spotify OAuth</span>
+          <span class="project-tag">Tailwind CSS</span>
           <span class="project-tag">bcrypt</span>
+          <span class="project-tag">Render</span>
         </div>
       </div>
       <div class="project-side">
         <div class="project-number">03</div>
-        <a href="https://todo-batbold.vercel.app/" target="_blank" class="project-link">Live ↗</a>
+        <a href="https://express-bybatbold.vercel.app/" target="_blank" class="project-link">Live ↗</a>
+        <a href="https://github.com/batbold9182/express" target="_blank" class="project-link" aria-label="View source on GitHub">
+          <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true" style="vertical-align:-2px;margin-right:5px;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Repository</a>
       </div>
     </div>
     <div class="project-card reveal reveal-d3">
@@ -237,6 +246,8 @@
       <div class="project-side">
         <div class="project-number">04</div>
         <a href="https://sumup-gray.vercel.app/" target="_blank" class="project-link">Live ↗</a>
+        <a href="https://github.com/batbold9182/sumup" target="_blank" class="project-link" aria-label="View source on GitHub">
+          <svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true" style="vertical-align:-2px;margin-right:5px;"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>Repository</a>
       </div>
 
     </div>
